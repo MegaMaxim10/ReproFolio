@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">ReproFolio wordmark</title>
+  <desc id="logoDesc">Gradient emblem with RF initials and ReproFolio text.</desc>
+  <defs>
+    <linearGradient id="rfBadge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7a18" />
+      <stop offset="100%" stop-color="#2575fc" />
+    </linearGradient>
+    <linearGradient id="rfText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f2937" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="10" width="100" height="100" rx="26" fill="url(#rfBadge)" />
+  <text x="58" y="74" text-anchor="middle" font-family="'Averia Sans Libre', 'Segoe UI', sans-serif" font-size="42" font-weight="700" fill="#ffffff">RF</text>
+
+  <text x="128" y="60" font-family="'Averia Sans Libre', 'Segoe UI', sans-serif" font-size="42" font-weight="700" fill="url(#rfText)">ReproFolio</text>
+  <text x="130" y="86" font-family="'IBM Plex Mono', 'Consolas', monospace" font-size="13" letter-spacing="1.4" fill="#475569">STATIC PORTFOLIO FRAMEWORK</text>
+</svg>

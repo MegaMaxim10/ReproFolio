@@ -29,7 +29,7 @@ describe("urlFor()", () => {
       json: {
         meta: {
           id: "news-post-1",
-          title: "Seminar at Colibri-CRIC, Dschang (17 Feb 2026)",
+          title: "ReproFolio Framework Starter Published",
           language: "en",
           slugFromTitle: true
         }
@@ -37,7 +37,7 @@ describe("urlFor()", () => {
     };
     const slugGraph = buildSiteGraph([...pages, newsPage]);
 
-    expect(urlFor(newsPage, slugGraph)).toBe("/news/seminar-at-colibri-cric-dschang-17-feb-2026.html");
+    expect(urlFor(newsPage, slugGraph)).toBe("/news/reprofolio-framework-starter-published.html");
   });
 });
 

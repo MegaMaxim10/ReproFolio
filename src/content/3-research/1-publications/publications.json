@@ -7,13 +7,19 @@
   },
   "header": {
     "title": "Publications",
-    "lead": "My published works, papers, and research contributions spanning journals, conferences, and other publications."
+    "lead": "Example publication page wired to the ORCID component."
   },
   "body": [
     {
+      "type": "paragraph",
+      "data": {
+        "text": "Replace the placeholder ORCID iD below with your own to fetch public works automatically."
+      }
+    },
+    {
       "type": "orcid",
       "data": {
-        "orcidId": "0000-0002-0417-5591",
+        "orcidId": "0000-0000-0000-0000",
         "sections": ["works"],
         "filters": {
           "sortBy": "date-desc"

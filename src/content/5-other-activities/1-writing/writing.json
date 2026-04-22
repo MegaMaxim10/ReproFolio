@@ -8,20 +8,13 @@
   },
   "header": {
     "title": "Writing",
-    "lead": "Articles, essays, and written contributions."
+    "lead": "Placeholder page for articles, explainers, and technical notes."
   },
   "body": [
     {
-      "type": "heading",
-      "data": {
-        "level": 2,
-        "text": "Writing"
-      }
-    },
-    {
       "type": "paragraph",
       "data": {
-        "text": "This page is currently under construction. More content will be available soon."
+        "text": "List external publications or host short internal essays in this section."
       }
     }
   ]

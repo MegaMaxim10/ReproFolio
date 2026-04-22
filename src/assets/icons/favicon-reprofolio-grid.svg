@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">ReproFolio Grid Favicon</title>
+  <desc id="desc">Grid-inspired favicon for ReproFolio.</desc>
+  <rect width="64" height="64" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="12" height="12" rx="3" fill="#1d4ed8"/>
+  <rect x="26" y="12" width="12" height="12" rx="3" fill="#22c55e"/>
+  <rect x="40" y="12" width="12" height="12" rx="3" fill="#0ea5e9"/>
+  <rect x="12" y="26" width="12" height="12" rx="3" fill="#0ea5e9"/>
+  <rect x="26" y="26" width="12" height="12" rx="3" fill="#1d4ed8"/>
+  <rect x="40" y="26" width="12" height="12" rx="3" fill="#ff6b35"/>
+  <rect x="12" y="40" width="12" height="12" rx="3" fill="#ff6b35"/>
+  <rect x="26" y="40" width="12" height="12" rx="3" fill="#22c55e"/>
+  <rect x="40" y="40" width="12" height="12" rx="3" fill="#1d4ed8"/>
+</svg>

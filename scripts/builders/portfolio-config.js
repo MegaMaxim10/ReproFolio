@@ -10,9 +10,9 @@ export const DEFAULT_PORTFOLIO_CONFIG = {
     author: "",
     keywords: [],
     branding: {
-      favicon: "assets/icons/favicon-zen.svg",
+      favicon: "assets/icons/favicon-reprofolio-grid.svg",
       logo: {
-        src: "assets/images/logo-zen.svg",
+        src: "assets/images/branding/logo-reprofolio-grid.svg",
         alt: "Site logo"
       }
     },
@@ -121,3 +121,4 @@ export function readPortfolioConfig() {
     }
   };
 }
+

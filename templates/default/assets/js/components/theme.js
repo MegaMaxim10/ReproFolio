@@ -7,7 +7,7 @@ export function initThemeToggle() {
   function updateThemeToggleLabel() {
     if (!toggle) return;
     const isDark = root.dataset.theme === "dark";
-    toggle.textContent = isDark ? "Light" : "Dark";
+    toggle.dataset.mode = isDark ? "dark" : "light";
     toggle.setAttribute("aria-label", `Switch to ${isDark ? "light" : "dark"} mode`);
   }
 

@@ -7,7 +7,7 @@ describe("renderMediaImage", () => {
       type: "media-image",
       id: "seminar-shot",
       data: {
-        src: "src/assets/images/activities/cric-itasd-seminar-17022026-samuel-fosso-wamba/1.jpg",
+        src: "src/assets/images/placeholders/framework-scene-grid.svg",
         alt: "Seminar photo",
         legend: "Session opening",
         zoom: true
@@ -19,4 +19,6 @@ describe("renderMediaImage", () => {
     expect(html).toContain("Session opening");
   });
 });
+
+
 

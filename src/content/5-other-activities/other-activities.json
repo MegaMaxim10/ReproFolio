@@ -8,20 +8,44 @@
   },
   "header": {
     "title": "Other Activities",
-    "lead": "Additional professional and personal activities."
+    "lead": "Optional section for writing, speaking, and community initiatives."
   },
   "body": [
     {
-      "type": "heading",
+      "type": "paragraph",
       "data": {
-        "level": 2,
-        "text": "Other Activities"
+        "text": "Use this area for non-core activities that still support your professional identity."
       }
     },
     {
-      "type": "paragraph",
+      "type": "link-groups",
       "data": {
-        "text": "This page is currently under construction. More content will be available soon."
+        "title": "Subsections",
+        "columns": 2,
+        "groups": [
+          {
+            "title": "Publishing",
+            "links": [
+              {
+                "label": "Writing",
+                "url": "{{hook:url.resolve(5-other-activities/1-writing/writing.html)}}",
+                "external": false,
+                "icon": "link"
+              }
+            ]
+          },
+          {
+            "title": "Community",
+            "links": [
+              {
+                "label": "Talks And Events",
+                "url": "{{hook:url.resolve(5-other-activities/2-singing/singing.html)}}",
+                "external": false,
+                "icon": "link"
+              }
+            ]
+          }
+        ]
       }
     }
   ]

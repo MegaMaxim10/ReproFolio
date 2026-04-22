@@ -8,34 +8,34 @@
   "body": [
     {
       "type": "layout-row",
-      "style": ["home-hero-row"],
+      "style": ["demo-hero-row"],
       "data": {
-        "widths": [38, 62],
+        "widths": [34, 66],
         "components": [
           {
             "type": "feature-image",
-            "style": ["home-feature-image"],
+            "style": ["demo-feature-image"],
             "data": {
-              "src": "src/assets/images/profile/zekeng.jpeg",
-              "alt": "Portrait of ZEKENG NDADJI Milliam Maxime",
-              "shape": "circle",
-              "shadow": false,
-              "loadEffect": "slide-ltr",
-              "zoom": true
+              "src": "src/assets/images/profile/profile-placeholder.svg",
+              "alt": "Sample profile placeholder",
+              "shape": "rounded",
+              "shadow": true,
+              "loadEffect": "fade-in",
+              "zoom": false
             }
           },
           {
             "type": "layout-row",
-            "style": ["home-intro-stack"],
+            "style": ["demo-intro-stack"],
             "data": {
               "rows": [
                 {
                   "components": [
                     {
                       "type": "paragraph",
-                      "style": ["home-name"],
+                      "style": ["demo-kicker"],
                       "data": {
-                        "text": "Dr ZEKENG NDADJI Milliam Maxime"
+                        "text": "ReproFolio Framework"
                       }
                     }
                   ]
@@ -44,9 +44,9 @@
                   "components": [
                     {
                       "type": "paragraph",
-                      "style": ["home-role"],
+                      "style": ["demo-title"],
                       "data": {
-                        "text": "Senior Lecturer and Researcher"
+                        "text": "Schema-Driven Scientific Portfolio Starter"
                       }
                     }
                   ]
@@ -55,9 +55,9 @@
                   "components": [
                     {
                       "type": "paragraph",
-                      "style": ["home-welcome"],
+                      "style": ["demo-lead"],
                       "data": {
-                        "text": "Welcome to my portfolio. Explore my teaching, research, consulting, and other activities."
+                        "text": "This homepage is intentionally generic. Replace this content with your own profile, projects, and publications while keeping the framework structure unchanged."
                       }
                     }
                   ]
@@ -66,7 +66,7 @@
                   "components": [
                     {
                       "type": "link-groups",
-                      "style": ["home-quick-actions"],
+                      "style": ["demo-quick-actions"],
                       "data": {
                         "columns": 1,
                         "groups": [
@@ -74,10 +74,10 @@
                             "title": "Quick actions",
                             "links": [
                               {
-                                "label": "Call",
-                                "url": "{{hook:contact.phoneTelUrl(0)}}",
+                                "label": "Contact",
+                                "url": "{{hook:url.resolve(6-contact/contact.html)}}",
                                 "external": false,
-                                "icon": "phone"
+                                "icon": "contact"
                               },
                               {
                                 "label": "Email",
@@ -86,16 +86,10 @@
                                 "icon": "email"
                               },
                               {
-                                "label": "WhatsApp",
-                                "url": "{{hook:contact.whatsappUrl(0)}}",
-                                "external": true,
-                                "icon": "whatsapp"
-                              },
-                              {
-                                "label": "Contact page",
-                                "url": "{{hook:url.resolve(6-contact/contact.html)}}",
+                                "label": "Call",
+                                "url": "{{hook:contact.phoneTelUrl(0)}}",
                                 "external": false,
-                                "icon": "contact"
+                                "icon": "phone"
                               }
                             ]
                           }
@@ -112,20 +106,19 @@
     },
     {
       "type": "content-carousel",
-      "style": ["home-latest-news"],
       "data": {
-        "title": "Latest News",
-        "intro": "A quick view of my most recent updates.",
+        "title": "Latest Example Updates",
+        "intro": "Demo entries generated from JSON content under src/content/1-news/.",
         "source": "1-news",
         "includeRootFiles": false,
         "exclude": ["news.json"],
         "publishedOnly": true,
         "defaultSort": "date-desc",
-        "limit": 10,
-        "excerptLength": 140,
+        "limit": 8,
+        "excerptLength": 150,
         "cardMinWidth": 300,
         "viewMoreUrl": "{{hook:url.resolve(1-news/news.html)}}",
-        "viewMoreLabel": "View all news"
+        "viewMoreLabel": "View all updates"
       }
     }
   ]

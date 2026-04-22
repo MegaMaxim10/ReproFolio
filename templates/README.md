@@ -3,7 +3,7 @@
 Each template lives in its own folder using its qualified name:
 
 - `templates/default/`
-- `templates/portfolio-landing/`
+- `templates/<your-template-name>/`
 
 Each template folder must include a `template-config.json` file that declares:
 
@@ -34,7 +34,7 @@ Per-page override remains declarative in page JSON:
 ```json
 {
   "presentation": {
-    "template": "portfolio-landing"
+    "template": "research-grid"
   }
 }
 ```

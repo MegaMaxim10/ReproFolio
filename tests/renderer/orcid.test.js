@@ -6,21 +6,21 @@ describe("renderOrcid", () => {
     const block = {
       type: "orcid",
       data: {
-        orcidId: "0000-0002-0417-5591",
+        orcidId: "0000-0000-0000-0000",
         sections: ["works"]
       }
     };
 
     const html = renderOrcid(block);
     expect(html).toContain("orcid-profile");
-    expect(html).toContain("0000-0002-0417-5591");
+    expect(html).toContain("0000-0000-0000-0000");
   });
 
   it("renders orcid block with cached works data", () => {
     const block = {
       type: "orcid",
       data: {
-        orcidId: "0000-0002-0417-5591",
+        orcidId: "0000-0000-0000-0000",
         sections: ["works"],
         cachedData: {
           sections: {
@@ -57,7 +57,7 @@ describe("renderOrcid", () => {
     const block = {
       type: "orcid",
       data: {
-        orcidId: "0000-0002-0417-5591",
+        orcidId: "0000-0000-0000-0000",
         sections: ["works"],
         cachedData: {
           sections: {
@@ -109,7 +109,7 @@ describe("renderOrcid", () => {
     const block = {
       type: "orcid",
       data: {
-        orcidId: "0000-0002-0417-5591",
+        orcidId: "0000-0000-0000-0000",
         sections: ["works"],
         displayOptions: {
           citationStyle: "ieee"
@@ -146,7 +146,7 @@ describe("renderOrcid", () => {
     const block = {
       type: "orcid",
       data: {
-        orcidId: "0000-0002-0417-5591",
+        orcidId: "0000-0000-0000-0000",
         sections: ["works"],
         displayOptions: {
           workMetadata: {
@@ -192,7 +192,7 @@ describe("renderOrcid", () => {
     const block = {
       type: "orcid",
       data: {
-        orcidId: "0000-0002-0417-5591",
+        orcidId: "0000-0000-0000-0000",
         sections: ["education"],
         cachedData: {
           sections: {
@@ -221,7 +221,7 @@ describe("renderOrcid", () => {
     const block = {
       type: "orcid",
       data: {
-        orcidId: "0000-0002-0417-5591",
+        orcidId: "0000-0000-0000-0000",
         sections: ["employment"],
         cachedData: {
           sections: {
@@ -249,7 +249,7 @@ describe("renderOrcid", () => {
     const block = {
       type: "orcid",
       data: {
-        orcidId: "0000-0002-0417-5591",
+        orcidId: "0000-0000-0000-0000",
         sections: ["peer-review"],
         cachedData: {
           sections: {
@@ -292,7 +292,7 @@ describe("renderOrcid", () => {
     const block = {
       type: "orcid",
       data: {
-        orcidId: "0000-0002-0417-5591",
+        orcidId: "0000-0000-0000-0000",
         sections: ["works"],
         cachedData: {
           sections: {
@@ -310,7 +310,7 @@ describe("renderOrcid", () => {
     const block = {
       type: "orcid",
       data: {
-        orcidId: "0000-0002-0417-5591",
+        orcidId: "0000-0000-0000-0000",
         sections: ["works", "education"],
         cachedData: {
           sections: {
@@ -345,7 +345,7 @@ describe("renderOrcid", () => {
     const block = {
       type: "orcid",
       data: {
-        orcidId: "0000-0002-0417-5591"
+        orcidId: "0000-0000-0000-0000"
       },
       style: ["custom-class"]
     };
@@ -358,7 +358,7 @@ describe("renderOrcid", () => {
     const block = {
       type: "orcid",
       data: {
-        orcidId: "0000-0002-0417-5591",
+        orcidId: "0000-0000-0000-0000",
         displayOptions: { showTitle: true },
         cachedData: {
           sections: {}
@@ -367,8 +367,9 @@ describe("renderOrcid", () => {
     };
 
     const html = renderOrcid(block);
-    expect(html).toContain("https://orcid.org/0000-0002-0417-5591");
+    expect(html).toContain("https://orcid.org/0000-0000-0000-0000");
     expect(html).toContain("ORCID Profile");
   });
 });
+
 

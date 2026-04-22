@@ -97,13 +97,13 @@ This file lists stable CSS hooks intended for customization.
 
 ## Home Page (Current Composition)
 
-- `.home-hero-row`
-- `.home-intro-stack`
-- `.home-feature-image`
-- `.home-name`
-- `.home-role`
-- `.home-welcome`
-- `.home-quick-actions`
+- `.demo-hero-row`
+- `.demo-intro-stack`
+- `.demo-feature-image`
+- `.demo-kicker`
+- `.demo-title`
+- `.demo-lead`
+- `.demo-quick-actions`
 
 ## Extension Rule
 

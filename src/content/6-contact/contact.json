@@ -8,7 +8,7 @@
   "header": {
     "title": "Contact",
     "subtitle": "{{cfg:site.contact.fullName}}",
-    "lead": "{{cfg:site.contact.role}} at {{cfg:site.contact.institution}}. Reach out for teaching, research, consulting, and collaboration opportunities."
+    "lead": "{{cfg:site.contact.role}} at {{cfg:site.contact.institution}}. Use the placeholders below as a starting point for your own contact page."
   },
   "body": [
     {
@@ -33,7 +33,7 @@
         "address": "{{cfg:site.contact.office}}",
         "latitude": "{{cfg:site.contact.coordinates.latitude}}",
         "longitude": "{{cfg:site.contact.coordinates.longitude}}",
-        "height": 380
+        "height": 360
       }
     },
     {
@@ -43,80 +43,22 @@
         "columns": 2,
         "groups": [
           {
-            "title": "Phone Numbers",
+            "title": "Phone",
             "links": [
               {
                 "label": "{{hook:contact.phoneDisplay(0)}}",
                 "url": "{{hook:contact.phoneTelUrl(0)}}",
                 "external": true,
                 "icon": "phone"
-              },
-              {
-                "label": "{{hook:contact.phoneDisplay(1)}}",
-                "url": "{{hook:contact.phoneTelUrl(1)}}",
-                "external": true,
-                "icon": "phone"
-              },
-              {
-                "label": "WhatsApp: {{hook:contact.phoneDisplay(0)}}",
-                "url": "{{hook:contact.whatsappUrl(0)}}",
-                "external": true,
-                "icon": "phone"
               }
             ]
           },
           {
-            "title": "Institutional Email",
+            "title": "Email",
             "links": [
               {
                 "label": "{{cfg:site.contact.emails.institutional}}",
                 "url": "{{hook:contact.emailMailto(institutional)}}",
-                "external": true,
-                "icon": "email"
-              }
-            ]
-          },
-          {
-            "title": "Personal Emails",
-            "links": [
-              {
-                "label": "{{cfg:site.contact.emails.personal.0}}",
-                "url": "{{hook:contact.emailMailto(personal,0)}}",
-                "external": true,
-                "icon": "email"
-              },
-              {
-                "label": "{{cfg:site.contact.emails.personal.1}}",
-                "url": "{{hook:contact.emailMailto(personal,1)}}",
-                "external": true,
-                "icon": "email"
-              },
-              {
-                "label": "{{cfg:site.contact.emails.personal.2}}",
-                "url": "{{hook:contact.emailMailto(personal,2)}}",
-                "external": true,
-                "icon": "email"
-              }
-            ]
-          },
-          {
-            "title": "Professional Emails",
-            "links": [
-              {
-                "label": "Dimsoft: {{cfg:site.contact.emails.professional.0}}",
-                "url": "{{hook:contact.emailMailto(professional,0)}}",
-                "external": true,
-                "icon": "email"
-              },
-              {
-                "label": "Nafasi: {{cfg:site.contact.emails.professional.1}}",
-                "url": "{{hook:contact.emailMailto(professional,1)}}",
-                "external": true,
-                "icon": "email"
-              },
-              {
-                "label": "Kimbocare: {{cfg:site.contact.emails.professional.2}}",
-                "url": "{{hook:contact.emailMailto(professional,2)}}",
                 "external": true,
                 "icon": "email"
               }
@@ -128,11 +70,11 @@
     {
       "type": "link-groups",
       "data": {
-        "title": "Social And Research Profiles",
+        "title": "Profiles",
         "columns": 2,
         "groups": [
           {
-            "title": "Professional Profiles",
+            "title": "Web",
             "links": [
               {
                 "label": "{{hook:contact.socialLabel(github)}}",
@@ -147,33 +89,10 @@
                 "icon": "linkedin"
               },
               {
-                "label": "{{hook:contact.socialLabel(x)}}",
-                "url": "{{hook:contact.socialUrl(x)}}",
-                "external": true,
-                "icon": "x"
-              }
-            ]
-          },
-          {
-            "title": "Research Profiles",
-            "links": [
-              {
-                "label": "{{hook:contact.socialLabel(researchgate)}}",
-                "url": "{{hook:contact.socialUrl(researchgate)}}",
-                "external": true,
-                "icon": "researchgate"
-              },
-              {
                 "label": "{{hook:contact.socialLabel(orcid)}}",
                 "url": "{{hook:contact.socialUrl(orcid)}}",
                 "external": true,
                 "icon": "orcid"
-              },
-              {
-                "label": "{{hook:contact.socialLabel(googlescholar)}}",
-                "url": "{{hook:contact.socialUrl(googlescholar)}}",
-                "external": true,
-                "icon": "googlescholar"
               }
             ]
           }
@@ -188,7 +107,7 @@
       "type": "form",
       "data": {
         "provider": "formspree",
-        "endpoint": "https://formspree.io/f/mykznyae",
+        "endpoint": "https://formspree.io/f/xxxxxxx",
         "fields": [
           {
             "name": "name",
@@ -197,7 +116,6 @@
             "required": true,
             "placeholder": "e.g. Ada Lovelace",
             "autocomplete": "name",
-            "helpText": "Use your full name for easier follow-up.",
             "validation": { "minLength": 2, "maxLength": 80 },
             "messages": {
               "required": "Please enter your name.",
@@ -247,6 +165,6 @@
     }
   ],
   "footer": {
-    "notes": "For urgent matters, please call directly."
+    "notes": "Replace all placeholders with your own public contact information before production release."
   }
 }

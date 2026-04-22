@@ -141,7 +141,7 @@ Purpose: download/document/image references.
   "type": "asset",
   "data": {
     "kind": "pdf",
-    "src": "assets/documents/cv/cv.pdf",
+    "src": "assets/documents/publications/sample-publication.pdf",
     "label": "Download CV"
   }
 }
@@ -217,7 +217,7 @@ Purpose: render a single feature image with configurable shape, shadow, load ani
 {
   "type": "feature-image",
   "data": {
-    "src": "src/assets/images/profile/zekeng.jpeg",
+    "src": "src/assets/images/profile/profile-placeholder.svg",
     "alt": "Profile portrait",
     "shape": "circle",
     "shadow": true,
@@ -332,7 +332,7 @@ Purpose: render tabular data with optional caption and headers.
     "headers": ["Item", "Value"],
     "rows": [
       ["Date", "2026-02-17"],
-      ["Location", "Dschang"]
+      ["Location", "Example City"]
     ]
   }
 }
@@ -415,7 +415,7 @@ Purpose: render one or more rows, each containing 1 to 6 components with optiona
           {
             "type": "feature-image",
             "data": {
-              "src": "src/assets/images/profile/zekeng.jpeg",
+              "src": "src/assets/images/profile/profile-placeholder.svg",
               "shape": "circle"
             }
           },
@@ -494,7 +494,7 @@ Purpose: pull and render ORCID profile sections.
 {
   "type": "orcid",
   "data": {
-    "orcidId": "0000-0002-0417-5591",
+    "orcidId": "0000-0000-0000-0000",
     "sections": ["works", "education", "employment"],
     "filters": {
       "workType": ["journal-article"],
@@ -511,4 +511,5 @@ Purpose: pull and render ORCID profile sections.
 2. Use `cfg`/`hook` tokens to avoid duplicating contact/profile data in multiple pages.
 3. Validate content with `npm run validate:content` after block edits.
 4. To generate SEO-friendly page filenames from titles, set `"meta": { "slugFromTitle": true }` on that page.
+
 

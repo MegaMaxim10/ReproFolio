@@ -199,8 +199,8 @@ function normalizeTemplateAssetHref(templateDefinition, assetPath, kind = "asset
 function resolveBrandingAssets() {
   const logo = siteBranding?.logo || {};
   return {
-    faviconHref: normalizeAssetHref(siteBranding?.favicon || "assets/icons/favicon-zen.svg"),
-    logoSrc: normalizeAssetHref(logo.src || "assets/images/logo-zen.svg"),
+    faviconHref: normalizeAssetHref(siteBranding?.favicon || "assets/icons/favicon-reprofolio-grid.svg"),
+    logoSrc: normalizeAssetHref(logo.src || "assets/images/branding/logo-reprofolio-grid.svg"),
     logoAlt: String(logo.alt || `${SITE_TITLE} logo`).trim() || `${SITE_TITLE} logo`
   };
 }
@@ -648,3 +648,4 @@ await minifyDirectory(OUTPUT_DIR);
 console.log("Minification complete");
 
 console.log("\nStatic site generation complete.");
+

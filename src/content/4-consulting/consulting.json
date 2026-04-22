@@ -7,20 +7,23 @@
   },
   "header": {
     "title": "Consulting",
-    "lead": "Professional consulting and collaboration engagements."
+    "lead": "Example page for advisory work, partnerships, and external collaborations."
   },
   "body": [
     {
-      "type": "heading",
+      "type": "paragraph",
       "data": {
-        "level": 2,
-        "text": "Consulting"
+        "text": "Summarize consulting services and the type of organizations you support."
       }
     },
     {
-      "type": "paragraph",
+      "type": "list",
       "data": {
-        "text": "This page is currently under construction. More content will be available soon."
+        "items": [
+          "Research strategy and methodology support",
+          "Data and AI project scoping",
+          "Training sessions and technical mentoring"
+        ]
       }
     }
   ]

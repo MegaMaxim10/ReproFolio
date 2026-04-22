@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 520" role="img" aria-labelledby="title desc">
+  <title id="title">Grid framework scene</title>
+  <desc id="desc">Modular grid visual for ReproFolio demos.</desc>
+  <rect width="840" height="520" rx="30" fill="#f8fafc"/>
+  <rect x="70" y="70" width="330" height="380" rx="26" fill="#ffffff" stroke="#dbeafe" stroke-width="2"/>
+  <g transform="translate(112,112)">
+    <rect x="0" y="0" width="78" height="78" rx="16" fill="#1d4ed8"/>
+    <rect x="92" y="0" width="78" height="78" rx="16" fill="#22c55e"/>
+    <rect x="184" y="0" width="78" height="78" rx="16" fill="#0ea5e9"/>
+    <rect x="0" y="92" width="78" height="78" rx="16" fill="#0ea5e9"/>
+    <rect x="92" y="92" width="78" height="78" rx="16" fill="#ff6b35"/>
+    <rect x="184" y="92" width="78" height="78" rx="16" fill="#1d4ed8"/>
+    <rect x="0" y="184" width="78" height="78" rx="16" fill="#ff6b35"/>
+    <rect x="92" y="184" width="78" height="78" rx="16" fill="#22c55e"/>
+    <rect x="184" y="184" width="78" height="78" rx="16" fill="#1d4ed8"/>
+  </g>
+  <rect x="430" y="70" width="340" height="380" rx="26" fill="#ffffff" stroke="#dbeafe" stroke-width="2"/>
+  <rect x="460" y="112" width="280" height="20" rx="10" fill="#e2e8f0"/>
+  <rect x="460" y="148" width="202" height="14" rx="7" fill="#cbd5e1"/>
+  <rect x="460" y="178" width="232" height="14" rx="7" fill="#e2e8f0"/>
+  <rect x="460" y="206" width="210" height="14" rx="7" fill="#e2e8f0"/>
+  <rect x="460" y="258" width="280" height="1" fill="#e2e8f0"/>
+  <rect x="460" y="286" width="110" height="84" rx="14" fill="#0ea5e9" opacity="0.9"/>
+  <rect x="586" y="286" width="154" height="16" rx="8" fill="#cbd5e1"/>
+  <rect x="586" y="316" width="132" height="14" rx="7" fill="#cbd5e1"/>
+  <rect x="586" y="342" width="146" height="14" rx="7" fill="#cbd5e1"/>
+</svg>

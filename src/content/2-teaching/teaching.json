@@ -7,20 +7,30 @@
   },
   "header": {
     "title": "Teaching",
-    "lead": "Courses, mentoring, and teaching contributions."
+    "lead": "Example space for courses, syllabi, and pedagogy notes."
   },
   "body": [
     {
-      "type": "heading",
+      "type": "paragraph",
       "data": {
-        "level": 2,
-        "text": "Teaching Activities"
+        "text": "Use this section to publish course descriptions, planned sessions, and learning outcomes."
       }
     },
     {
-      "type": "paragraph",
+      "type": "timeline",
       "data": {
-        "text": "This page is currently under construction. More content will be available soon."
+        "items": [
+          {
+            "period": "Semester 1",
+            "title": "Course Placeholder A",
+            "description": "Introductory module with weekly lectures and guided labs."
+          },
+          {
+            "period": "Semester 2",
+            "title": "Course Placeholder B",
+            "description": "Project-based module with reproducible workflow practices."
+          }
+        ]
       }
     }
   ]

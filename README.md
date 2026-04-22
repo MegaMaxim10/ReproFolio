@@ -1,4 +1,4 @@
-# Static Portfolio Framework
+# ReproFolio
 
 A schema-driven static site framework for academic and professional portfolios.
 
@@ -15,6 +15,14 @@ This project is a static site framework, not a theme-only starter.
 
 You define content as JSON files in `src/content/`.  
 The build system validates JSON against `schemas/page.schema.json`, renders component blocks, applies templates, copies assets, and minifies output into `public/`.
+
+## Starter Content
+
+This repository ships with sanitized placeholder content only.
+
+- Sample pages live in `src/content/`.
+- Placeholder assets live in `src/assets/images/placeholders/` and `src/assets/images/profile/profile-placeholder.svg`.
+- Update `portfolio-config.json` with your own public metadata before production deployment.
 
 ## Core Principles
 

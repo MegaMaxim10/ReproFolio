@@ -8,20 +8,55 @@
   },
   "header": {
     "title": "Research",
-    "lead": "Research themes, projects, and outputs."
+    "lead": "Example research structure for publications, supervision, and additional activities."
   },
   "body": [
     {
-      "type": "heading",
+      "type": "paragraph",
       "data": {
-        "level": 2,
-        "text": "Research Overview"
+        "text": "This section demonstrates how to organize research content into nested pages while preserving automatic navigation and breadcrumbs."
       }
     },
     {
-      "type": "paragraph",
+      "type": "link-groups",
       "data": {
-        "text": "This page is currently under construction. More content will be available soon."
+        "title": "Research sections",
+        "columns": 3,
+        "groups": [
+          {
+            "title": "Outputs",
+            "links": [
+              {
+                "label": "Publications",
+                "url": "{{hook:url.resolve(3-research/1-publications/publications.html)}}",
+                "external": false,
+                "icon": "link"
+              }
+            ]
+          },
+          {
+            "title": "Mentoring",
+            "links": [
+              {
+                "label": "Supervision",
+                "url": "{{hook:url.resolve(3-research/2-supervision/supervision.html)}}",
+                "external": false,
+                "icon": "link"
+              }
+            ]
+          },
+          {
+            "title": "Additional",
+            "links": [
+              {
+                "label": "Other Research Activities",
+                "url": "{{hook:url.resolve(3-research/3-more/more.html)}}",
+                "external": false,
+                "icon": "link"
+              }
+            ]
+          }
+        ]
       }
     }
   ]

@@ -7,7 +7,7 @@ describe("renderFeatureImage", () => {
     const block = {
       type: "feature-image",
       data: {
-        src: "src/assets/images/profile/zekeng.jpeg",
+        src: "src/assets/images/profile/profile-placeholder.svg",
         alt: "Portrait",
         shape: "circle",
         shadow: true,
@@ -20,7 +20,7 @@ describe("renderFeatureImage", () => {
     expect(html).toContain("shape-circle");
     expect(html).toContain("effect-slide-ltr");
     expect(html).toContain("has-shadow");
-    expect(html).toContain('{{basePath}}/assets/images/profile/zekeng.jpeg');
+    expect(html).toContain('{{basePath}}/assets/images/profile/profile-placeholder.svg');
   });
 
   it("adds zoom markup when zoom is enabled", () => {
@@ -28,7 +28,7 @@ describe("renderFeatureImage", () => {
       type: "feature-image",
       id: "avatar",
       data: {
-        src: "src/assets/images/profile/zekeng.jpeg",
+        src: "src/assets/images/profile/profile-placeholder.svg",
         zoom: true
       }
     };
@@ -47,7 +47,7 @@ describe("renderFeatureImage", () => {
         {
           type: "profile-image",
           data: {
-            src: "src/assets/images/profile/zekeng.jpeg",
+            src: "src/assets/images/profile/profile-placeholder.svg",
             shape: "circle"
           }
         }
@@ -58,3 +58,4 @@ describe("renderFeatureImage", () => {
     expect(html).toContain("block-feature-image");
   });
 });
+

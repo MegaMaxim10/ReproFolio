@@ -8,13 +8,13 @@
   },
   "header": {
     "title": "News",
-    "lead": "Announcements, milestones, and recent updates across my academic and professional activities."
+    "lead": "Framework announcements, release notes, and sample content updates."
   },
   "body": [
     {
       "type": "paragraph",
       "data": {
-        "text": "This page provides short updates from my portfolio. Each card links to a full note."
+        "text": "Use this page as a collection landing for announcements. Each post can be written as a standalone JSON page in the same folder tree."
       }
     },
     {
@@ -30,7 +30,7 @@
         "enableFilter": true,
         "defaultSort": "date-desc",
         "excerptLength": 180,
-        "emptyMessage": "No published news is available yet."
+        "emptyMessage": "No published updates yet."
       }
     }
   ]

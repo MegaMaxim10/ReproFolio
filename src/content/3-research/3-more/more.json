@@ -7,7 +7,7 @@
   },
   "header": {
     "title": "Other Research Activities",
-    "lead": "Peer reviews, grants and funding, and professional activities."
+    "lead": "Peer review, grants, and professional service placeholders."
   },
   "body": [
     {
@@ -17,7 +17,7 @@
     {
       "type": "orcid",
       "data": {
-        "orcidId": "0000-0002-0417-5591",
+        "orcidId": "0000-0000-0000-0000",
         "sections": ["peer-review"]
       }
     },
@@ -28,7 +28,7 @@
     {
       "type": "orcid",
       "data": {
-        "orcidId": "0000-0002-0417-5591",
+        "orcidId": "0000-0000-0000-0000",
         "sections": ["grants"]
       }
     },
@@ -39,7 +39,7 @@
     {
       "type": "orcid",
       "data": {
-        "orcidId": "0000-0002-0417-5591",
+        "orcidId": "0000-0000-0000-0000",
         "sections": ["professional-activity"]
       }
     }

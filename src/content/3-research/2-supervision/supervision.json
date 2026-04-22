@@ -7,20 +7,30 @@
   },
   "header": {
     "title": "Supervision",
-    "lead": "Student supervision and mentorship activities."
+    "lead": "Sample structure for student and trainee supervision records."
   },
   "body": [
     {
-      "type": "heading",
+      "type": "paragraph",
       "data": {
-        "level": 2,
-        "text": "Supervision"
+        "text": "Document supervision activities with concise entries and outcomes."
       }
     },
     {
-      "type": "paragraph",
+      "type": "timeline",
       "data": {
-        "text": "This page is currently under construction. More content will be available soon."
+        "items": [
+          {
+            "period": "2025-2026",
+            "title": "Master Thesis Placeholder",
+            "description": "Applied research supervision with reproducible methods."
+          },
+          {
+            "period": "2024-2025",
+            "title": "Undergraduate Capstone Placeholder",
+            "description": "Mentoring project teams through design, validation, and reporting."
+          }
+        ]
       }
     }
   ]

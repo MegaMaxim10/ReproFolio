@@ -6,14 +6,14 @@ const config = {
     title: "Demo",
     contact: {
       role: "Senior Lecturer/Researcher",
-      institution: "University of Dschang",
-      department: "Department of Mathematics and Computer Science, Faculty of Science",
-      postalAddress: "P.O Box 67, Dschang",
-      office: "Door 237B, Campus C",
-      coordinates: { latitude: 5.438799, longitude: 10.071175 },
-      phones: ["+237674965370", "+237697329108"],
+      institution: "Example University",
+      department: "Department of Example Studies",
+      postalAddress: "123 Example Avenue, Example City",
+      office: "Building A, Office 101",
+      coordinates: { latitude: 48.8566, longitude: 2.3522 },
+      phones: ["+10000000000", "+10000000001"],
       emails: {
-        institutional: "ndadji.maxime@univ-dschang.org",
+        institutional: "contact@example.edu",
         personal: ["a@x.com"],
         professional: []
       },
@@ -40,11 +40,11 @@ describe("content resolver", () => {
 
     const resolved = resolveContentConfigReferences(input, config);
     expect(resolved.text).toContain("Senior Lecturer/Researcher");
-    expect(resolved.map.latitude).toBe(5.438799);
-    expect(resolved.phoneUrl).toBe("tel:+237674965370");
-    expect(resolved.mailto).toBe("mailto:ndadji.maxime@univ-dschang.org");
+    expect(resolved.map.latitude).toBe(48.8566);
+    expect(resolved.phoneUrl).toBe("tel:+10000000000");
+    expect(resolved.mailto).toBe("mailto:contact@example.edu");
     expect(resolved.social).toBe("https://github.com/example");
-    expect(resolved.profile).toContain("University of Dschang");
+    expect(resolved.profile).toContain("Example University");
     expect(resolved.relativeUrl).toBe("{{basePath}}/6-contact/contact.html");
     expect(resolved.absoluteUrl).toBe("https://example.org/path");
   });

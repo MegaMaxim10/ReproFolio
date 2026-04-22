@@ -1,27 +1,20 @@
 {
   "meta": {
     "id": "singing",
-    "title": "Singing",
+    "title": "Talks And Events",
     "language": "en",
     "version": "1.0",
     "genSubMenus": false
   },
   "header": {
-    "title": "Singing",
-    "lead": "Music-related projects and performances."
+    "title": "Talks And Events",
+    "lead": "Placeholder page for presentations, workshops, and public outreach."
   },
   "body": [
     {
-      "type": "heading",
-      "data": {
-        "level": 2,
-        "text": "Singing"
-      }
-    },
-    {
       "type": "paragraph",
       "data": {
-        "text": "This page is currently under construction. More content will be available soon."
+        "text": "Document speaking engagements, workshops, and community events."
       }
     }
   ]

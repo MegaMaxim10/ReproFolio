@@ -1,12 +1,12 @@
 import { initThemeToggle } from "./components/theme.js";
-import { initMobileNav, initActiveLinks } from "./components/navigation.js";
-import { initHeaderOffset, mountPassionDecor } from "./components/layout.js";
+import { initMobileNav, initDesktopSubmenus, initActiveLinks } from "./components/navigation.js";
+import { initHeaderOffset } from "./components/layout.js";
 
 function initTemplateRuntime() {
   initThemeToggle();
   initMobileNav();
+  initDesktopSubmenus();
   initHeaderOffset();
-  mountPassionDecor();
   initActiveLinks();
 }
 

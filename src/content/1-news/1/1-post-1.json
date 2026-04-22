@@ -1,28 +1,27 @@
 {
   "meta": {
     "id": "news-post-1",
-    "title": "Seminar at Colibri-CRIC, Dschang (17 Feb 2026)",
-    "description": "I participated as ITASD vice-coordinator in a Colibri-CRIC hybrid conference on impact-driven research and artificial intelligence, led by Prof. Samuel Fosso Wamba.",
-    "image": "assets/images/activities/cric-itasd-seminar-17022026-samuel-fosso-wamba/1.jpg",
+    "title": "ReproFolio Framework Starter Published",
+    "description": "A neutral starter entry showing how to structure a content page with reusable blocks.",
+    "image": "assets/images/placeholders/framework-scene-grid.svg",
     "language": "en",
     "version": "1.0",
     "status": "published",
     "slugFromTitle": true,
-    "publishedTime": "2026-02-19T10:00:00+01:00",
-    "lastUpdated": "2026-02-19",
+    "publishedTime": "2026-04-20T09:00:00Z",
+    "lastUpdated": "2026-04-20",
     "tags": [
-      "seminar",
-      "colibri-cric",
-      "itasd",
-      "artificial-intelligence"
+      "framework",
+      "starter",
+      "release-note"
     ]
   },
   "header": {
-    "title": "Seminar at Colibri-CRIC, Dschang",
-    "lead": "On 17 February 2026, I participated in a hybrid Colibri-CRIC conference on impact-driven research and artificial intelligence, in person in Dschang, in my role as Vice-Coordinator of ITASD.",
+    "title": "ReproFolio Framework Starter Published",
+    "lead": "This sample post demonstrates clean, reusable content blocks for an open-source scientific portfolio framework.",
     "image": {
-      "src": "assets/images/activities/cric-itasd-seminar-17022026-samuel-fosso-wamba/2.jpg",
-      "alt": "Conference session at Colibri-CRIC in Dschang"
+      "src": "assets/images/placeholders/framework-scene-grid.svg",
+      "alt": "Abstract framework illustration"
     }
   },
   "body": [
@@ -30,37 +29,34 @@
       "type": "heading",
       "data": {
         "level": 2,
-        "text": "Conference Summary"
+        "text": "What This Sample Covers"
       }
     },
     {
       "type": "paragraph",
       "data": {
-        "text": "On [b]Tuesday 17 February 2026[/b], the [b]Colibri Research and Innovation Center (CRIC)[/b] organized a special conference on [u]\"Faire de la recherche à impact : focus sur l'intelligence artificielle\"[/u], led by [b]Prof. Samuel Fosso Wamba[/b] (TBS Education, France; President of 237 DIASPROF). I attended in person in Dschang as [b]Vice-Coordinator of ITASD[/b]."
+        "text": "This entry is intentionally minimal and vendor-neutral. It shows how to combine headings, paragraphs, media, tables, and code snippets without embedding personal or institutional information."
       }
     },
     {
       "type": "table",
       "data": {
         "compact": true,
-        "headers": ["Item", "Details"],
+        "headers": ["Section", "Purpose"],
         "rows": [
-          ["Date", "17 February 2026"],
-          ["Format", "Hybrid (Zoom + in-person)"],
-          ["Venue (in-person)", "CRIC headquarters, Dschang (Menoua, West Region, Cameroon)"],
-          ["Time", "14:30 - 16:30"],
-          ["Speaker", "Prof. Samuel Fosso Wamba (Information Systems & Data Science, TBS Education; Vice-Dean for Research)"],
-          ["My role", "Vice-Coordinator, ITASD"],
-          ["Theme", "Research impact with a focus on artificial intelligence"]
+          ["Metadata", "SEO-friendly page settings and tags"],
+          ["Header", "Page title, lead, and optional feature image"],
+          ["Body blocks", "Composable content modules"],
+          ["Footer", "Optional closing note"]
         ]
       }
     },
     {
       "type": "media-image",
       "data": {
-        "src": "src/assets/images/activities/cric-itasd-seminar-17022026-samuel-fosso-wamba/1.jpg",
-        "alt": "Seminar opening session at Colibri-CRIC",
-        "legend": "Opening discussion during the seminar at Colibri-CRIC (Dschang).",
+        "src": "src/assets/images/placeholders/framework-scene-grid.svg",
+        "alt": "Abstract framework geometry",
+        "legend": "Placeholder media asset suitable for open-source demos.",
         "zoom": true
       }
     },
@@ -68,30 +64,7 @@
       "type": "heading",
       "data": {
         "level": 3,
-        "text": "What Happened During the Session"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "The in-person audience was composed mainly of [b]Master 1 and Master 2 students[/b], [b]doctoral students[/b], and [b]early-career researchers[/b] from social and exact sciences. The conference was opened by [b]Dr Boris Metsagho Mekontcho[/b], Executive Director of CRIC, and remained highly interactive with contributions and questions from both in-person and online participants."
-      }
-    },
-    {
-      "type": "list",
-      "data": {
-        "items": [
-          "[b]Opening note[/b]: the speaker was presented as the first researcher to offer a conference at CRIC on a major issue of our time, artificial intelligence.",
-          "[b]Interactive format[/b]: questions from participants were integrated throughout the session.",
-          "[b]Target audience relevance[/b]: the discussion was particularly useful for young researchers building their research positioning and methodology."
-        ]
-      }
-    },
-    {
-      "type": "heading",
-      "data": {
-        "level": 3,
-        "text": "Key Messages I Retained"
+        "text": "Recommended Next Steps"
       }
     },
     {
@@ -99,80 +72,24 @@
       "data": {
         "ordered": true,
         "items": [
-          "[b]Impact-oriented research is a dynamic cycle[/b]: research is not only knowledge accumulation, but a [i]problem - process - solution[/i] cycle that should connect with real actors and real needs.",
-          "[b]AI should be understood beyond buzzwords[/b]: the talk clarified what AI is, distinguished [b]weak AI[/b] and [b]strong AI[/b], and emphasized four capabilities (perceive, understand, act, learn).",
-          "[b]Societal impact remains under-researched[/b]: a major point was the imbalance between technical AI research and research on social impact ([b]about 97% technical vs 3% focused on social good[/b]).",
-          "[b]AI can support research work[/b]: summarization, hypothesis generation, and prototyping can accelerate research, but only with [u]ethics, rigor, critical thinking, and transparency[/u].",
-          "[b]Education and research must adapt intelligently[/b]: AI should be treated as a [i]partner[/i] for learning and research, not a crutch, with stronger emphasis on critical, creative, and relational competencies."
+          "Replace placeholder contact values in [code]portfolio-config.json[/code].",
+          "Create your own pages under [code]src/content/[/code] using documented block types.",
+          "Run [code]npm run verify[/code] before publishing changes."
         ]
       }
     },
     {
-      "type": "heading",
+      "type": "code-block",
       "data": {
-        "level": 3,
-        "text": "Implications for Academic Practice"
-      }
-    },
-    {
-      "type": "list",
-      "data": {
-        "items": [
-          "[b]Assessment redesign[/b]: when AI can draft large parts of a text, evaluation should place more weight on oral presentation, coordination, and critical reasoning.",
-          "[b]Publication ethics[/b]: the use of AI in research writing should be declared transparently when submitting to journals.",
-          "[b]Applied relevance[/b]: impact-driven research should intentionally address underexplored societal priorities (education, inclusion, crisis response, information verification, justice, public-sector management)."
-        ]
-      }
-    },
-    {
-      "type": "heading",
-      "data": {
-        "level": 3,
-        "text": "About Colibri-CRIC and ITASD"
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "[color=#0d6adf][b]Colibri-CRIC[/b][/color] provides a strong environment for research dialogue and innovation-oriented exchange. [font=heading][b]ITASD[/b][/font] (Institute of Technology and Advanced Science for Sustainable Development), within the Colibri-CRIC ecosystem, aligns well with this perspective by connecting science, technology, and sustainable development concerns."
-      }
-    },
-    {
-      "type": "image-gallery",
-      "data": {
-        "title": "Seminar Photo Highlights",
-        "layout": "photomontage",
-        "zoom": true,
-        "carousel": true,
-        "images": [
-          {
-            "src": "src/assets/images/activities/cric-itasd-seminar-17022026-samuel-fosso-wamba/1.jpg",
-            "alt": "Speaker and audience during the seminar",
-            "caption": "Opening exchange with participants"
-          },
-          {
-            "src": "src/assets/images/activities/cric-itasd-seminar-17022026-samuel-fosso-wamba/2.jpg",
-            "alt": "Session view at Colibri-CRIC",
-            "caption": "Research and impact discussion"
-          },
-          {
-            "src": "src/assets/images/activities/cric-itasd-seminar-17022026-samuel-fosso-wamba/3.jpg",
-            "alt": "Participants engaged during seminar",
-            "caption": "Closing moments at ITASD / Colibri-CRIC"
-          },
-          {
-            "src": "src/assets/images/activities/cric-itasd-seminar-17022026-samuel-fosso-wamba/4.jpg",
-            "alt": "Closing seminar photo",
-            "caption": "Closing moments at ITASD / Colibri-CRIC"
-          }
-        ]
-      }
-    },
-    {
-      "type": "paragraph",
-      "data": {
-        "text": "For my portfolio, this conference was an important milestone in strengthening an [b]impact-oriented perspective[/b] on research and on the responsible use of AI in academic work. A fuller recap (in French) is available on the Colibri-CRIC website: [Retour en images sur la conférence spéciale : « Faire de la recherche à impact : focus sur l'intelligence artificielle » animée par Samuel Fosso Wamba](https://colibri-cric.org/blog/2026/02/19/retour-en-images-sur-la-conference-speciale-faire-de-la-recherche-a-limpact-focus-sur-lintelligence-artificielle-animee-par-samuel-fosso-wamba/)."
+        "language": "json",
+        "lineNumbers": true,
+        "code": "{\n  \"meta\": { \"title\": \"My Update\", \"status\": \"published\" },\n  \"body\": [\n    { \"type\": \"paragraph\", \"data\": { \"text\": \"Hello from ReproFolio.\" } }\n  ]\n}"
       }
     }
-  ]
+  ],
+  "footer": {
+    "notes": "This is demo content intended for framework users."
+  }
 }
+
+

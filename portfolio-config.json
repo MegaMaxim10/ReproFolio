@@ -1,85 +1,80 @@
 {
   "site": {
-    "title": "ZEKENG NDADJI Milliam Maxime",
-    "description": "Welcome to the online portfolio of ZEKENG NDADJI Milliam Maxime, Senior Lecturer and Researcher.",
-    "author": "ZEKENG NDADJI Milliam Maxime",
+    "title": "ReproFolio Demo Portfolio",
+    "description": "Example portfolio content for the ReproFolio static framework.",
+    "author": "ReproFolio contributors",
     "keywords": [
+      "reprofolio",
       "portfolio",
-      "research",
-      "teaching",
-      "contact",
-      "ZEKENG NDADJI Milliam Maxime"
+      "framework",
+      "static-site",
+      "demo"
     ],
     "branding": {
-      "favicon": "assets/icons/favicon-zen.svg",
+      "favicon": "assets/icons/favicon-reprofolio-grid.svg",
       "logo": {
-        "src": "assets/images/logo-zen.svg",
-        "alt": "ZEN logo"
+        "src": "assets/images/branding/logo-reprofolio-grid.svg",
+        "alt": "ReproFolio logo"
       }
     },
     "contact": {
-      "fullName": "ZEKENG NDADJI Milliam Maxime",
-      "role": "Senior Lecturer/Researcher",
-      "institution": "University of Dschang",
-      "department": "Department of Mathematics and Computer Science, Faculty of Science",
-      "postalAddress": "P.O Box 67, Dschang",
-      "office": "Door 237B, Faculty of Science building, Campus C, in front of Amphi 600",
+      "fullName": "Portfolio Owner",
+      "role": "Researcher / Educator",
+      "institution": "Example University",
+      "department": "Department of Example Studies",
+      "postalAddress": "123 Example Avenue, Example City",
+      "office": "Building A, Office 101",
       "coordinates": {
-        "latitude": 5.438799,
-        "longitude": 10.071175
+        "latitude": 48.8566,
+        "longitude": 2.3522
       },
       "phones": [
-        "+237674965370",
-        "+237697329108"
+        "+10000000000"
       ],
       "emails": {
-        "institutional": "ndadji.maxime@univ-dschang.org",
+        "institutional": "contact@example.edu",
         "personal": [
-          "ndadjimaxime@yahoo.fr",
-          "ndadjimaxime@gmail.com",
-          "ndadjimaxime@outlook.fr"
+          "personal@example.com"
         ],
         "professional": [
-          "ndadjimaxime@dimsoft.eu",
-          "maxime.ndadji@nafasi-digital.com",
-          "maxime.zekeng@kimbocare.com"
+          "work@example.org"
         ]
       },
       "socials": [
         {
           "key": "github",
           "label": "GitHub",
-          "url": "https://github.com/MegaMaxim10"
+          "url": "https://github.com/example"
         },
         {
           "key": "linkedin",
           "label": "LinkedIn",
-          "url": "https://www.linkedin.com/in/ndadjimilliam/"
-        },
-        {
-          "key": "x",
-          "label": "X",
-          "url": "https://x.com/Maxmil10"
-        },
-        {
-          "key": "researchgate",
-          "label": "ResearchGate",
-          "url": "https://www.researchgate.net/profile/Milliam-Zekeng-Ndadji"
+          "url": "https://www.linkedin.com/in/example/"
         },
         {
           "key": "orcid",
           "label": "ORCID",
-          "url": "https://orcid.org/my-orcid?orcid=0000-0002-0417-5591"
-        },
-        {
-          "key": "googlescholar",
-          "label": "Google Scholar",
-          "url": "https://scholar.google.com/citations?user=KtPSgGYAAAAJ"
+          "url": "https://orcid.org/0000-0000-0000-0000"
         }
       ]
     }
   },
   "templates": {
     "default": "default"
+  },
+  "seo": {
+    "siteUrl": "https://example.org",
+    "defaultLocale": "en_US",
+    "defaultType": "website",
+    "defaultRobots": "index,follow",
+    "defaultImage": "/assets/icons/favicon-reprofolio-grid.svg",
+    "twitterHandle": "@example",
+    "organizationName": "ReproFolio contributors",
+    "sameAs": [
+      "https://github.com/example",
+      "https://orcid.org/0000-0000-0000-0000"
+    ]
   }
 }
+
+

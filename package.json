@@ -1,7 +1,7 @@
 {
-  "name": "zekeng-maxime-online",
+  "name": "reprofolio",
   "version": "1.0.0",
-  "description": "My portfolio",
+  "description": "Schema-driven static portfolio framework",
   "main": "index.js",
   "scripts": {
     "test": "vitest run",
@@ -18,16 +18,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MegaMaxim10/zekeng-maxime-online.git"
+    "url": "git+https://github.com/reprofolio/reprofolio.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "ReproFolio contributors",
+  "license": "MIT",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/MegaMaxim10/zekeng-maxime-online/issues"
+    "url": "https://github.com/reprofolio/reprofolio/issues"
   },
-  "homepage": "https://github.com/MegaMaxim10/zekeng-maxime-online#readme",
+  "homepage": "https://github.com/reprofolio/reprofolio#readme",
   "dependencies": {
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",

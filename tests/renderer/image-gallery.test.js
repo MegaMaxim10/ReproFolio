@@ -9,8 +9,8 @@ describe("renderImageGallery", () => {
       data: {
         layout: "masonry",
         images: [
-          { src: "src/assets/images/activities/cric-itasd-seminar-17022026-samuel-fosso-wamba/1.jpg", caption: "A" },
-          { src: "src/assets/images/activities/cric-itasd-seminar-17022026-samuel-fosso-wamba/2.jpg", caption: "B" }
+          { src: "src/assets/images/placeholders/framework-scene-grid.svg", caption: "A" },
+          { src: "src/assets/images/placeholders/framework-scene-grid.svg", caption: "B" }
         ]
       }
     });
@@ -20,4 +20,6 @@ describe("renderImageGallery", () => {
     expect(html).toContain("data-lightbox-index=\"1\"");
   });
 });
+
+
 

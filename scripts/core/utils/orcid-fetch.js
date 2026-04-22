@@ -18,7 +18,7 @@ function fetchFromOrcid(path) {
       method: "GET",
       headers: {
         "Accept": "application/json",
-        "User-Agent": "Zekeng-Portfolio/1.0"
+        "User-Agent": "ReproFolio/1.0"
       }
     };
 
